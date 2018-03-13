@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/prueba',function (){
+    return 'Hola soy la ruta prueba';
+});
